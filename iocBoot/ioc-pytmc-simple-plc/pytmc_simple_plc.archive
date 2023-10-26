@@ -1,0 +1,2 @@
+PLC:TEST:iCount_RBV.VAL	1	scan
+PLC:TEST:iCount.VAL	1	scan

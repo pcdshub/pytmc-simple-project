@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{2f91f540-04e5-4ebb-a672-ddc63ea86f99}" SpecialFunc="None">
+    <Declaration><![CDATA[
+PROGRAM MAIN
+VAR
+	bValue : BOOL;
+	{attribute 'pytmc' := 'pv: PLC:TEST:iCount'}
+	iCount : INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[iCount := iCount + 1;]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

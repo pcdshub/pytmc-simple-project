@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","${IOC=ioc-pytmc-simple-plc}")
+epicsEnvSet("TOP","/Users/klauer/Repos/ads-ioc")
+epicsEnvSet("EPICS_BASE","/Users/klauer/Repos/epics-base")
+epicsEnvSet("IOC_TOP", "/Users/klauer/Repos/twincat-bsd-ansible-testing/pytmc-simple-project/iocBoot/ioc-pytmc-simple-plc")
+epicsEnvSet("IOC_DATA", "/cds/data/iocData")
