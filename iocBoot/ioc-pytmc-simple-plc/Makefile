@@ -1,4 +1,4 @@
-IOC_TOP = /Users/klauer/Repos/ads-ioc
+IOC_TOP = /home/Administrator/ads-ioc/
 IOC_INSTANCE_PATH := $(shell pwd)
 
 # Set PRODUCTION_IOC to 1 to move from a testing to a production IOC:

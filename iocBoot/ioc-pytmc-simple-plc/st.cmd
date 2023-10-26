@@ -1,4 +1,4 @@
-#!/Users/klauer/Repos/ads-ioc/bin/rhel7-x86_64/adsIoc
+#!/home/Administrator/ads-ioc/bin/rhel7-x86_64/adsIoc
 ################### AUTO-GENERATED DO NOT EDIT ###################
 #
 #         Project: pytmc-simple-project.tsproj
@@ -34,6 +34,10 @@ adsIoc_registerRecordDeviceDriver(pdbbase)
 
 epicsEnvSet("ASYN_PORT",        "ASYN_PLC")
 epicsEnvSet("IPADDR",           "192.168.2.193")
+# epicsEnvSet("IPADDR",           "127.0.0.1")
+epicsEnvSet("IPADDR",           "127.0.0.1")
+adsSetLocalAddress("127.0.0.1.1.1")
+# epicsEnvSet("AMSID",            "10.100.0.7.1.1")
 epicsEnvSet("AMSID",            "192.168.2.193.1.1")
 epicsEnvSet("AMS_PORT",         "851")
 epicsEnvSet("ADS_MAX_PARAMS",   "1002")
