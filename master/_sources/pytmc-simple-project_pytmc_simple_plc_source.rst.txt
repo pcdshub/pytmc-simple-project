@@ -1,0 +1,31 @@
+
+
+DUTs
+----
+
+
+GVLs
+----
+
+
+POUs
+----
+
+
+MAIN
+^^^^
+
+::
+
+    PROGRAM MAIN
+    VAR
+    	bValue : BOOL;
+    	{attribute 'pytmc' := 'pv: PLC:TEST:iCount'}
+    	iCount : INT;
+    END_VAR
+    iCount := iCount + 1;
+
+    END_PROGRAM
+
+
+

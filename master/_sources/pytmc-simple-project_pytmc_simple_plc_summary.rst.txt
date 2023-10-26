@@ -1,0 +1,102 @@
+
+Settings
+--------
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Setting
+      - Value
+      - Description
+    * - AMS Net ID
+      - 192.168.2.193.1.1
+      -
+    * - Target IP address
+      - 192.168.2.193
+      - Based on AMS Net ID by convention
+    * - AMS Port
+      - 851
+      -
+
+.. _pytmc_simple_plc_pragmas:
+
+Pragmas
+-------
+
+Total pragmas found: 1
+Total linter errors: 0
+
+
+
+Libraries
+---------
+
+.. csv-table::
+    :header: Library, Vendor, Default, Version
+    :align: center
+
+        Tc2_Standard, Beckhoff Automation GmbH, Unset, Unset
+        Tc2_System, Beckhoff Automation GmbH, Unset, Unset
+        Tc3_Module, Beckhoff Automation GmbH, Unset, Unset
+
+Symbols
+-------
+
+
+Constants
+^^^^^^^^^
+
+.. csv-table::
+    :header: Symbol, Type, Offset/Size
+    :align: center
+
+        Constants.bFPUSupport, BOOL, 3080272 (8)
+        Constants.bLittleEndian, BOOL, 3080096 (8)
+        Constants.bMulticoreSupport, BOOL, 3080280 (8)
+        Constants.bSimulationMode, BOOL, 3080104 (8)
+        Constants.CompilerVersion, VERSION, 3080176 (64)
+        Constants.CompilerVersionNumeric, DWORD, 3080320 (32)
+        Constants.nPackMode, UINT, 3080256 (16)
+        Constants.nRegisterSize, WORD, 3080240 (16)
+        Constants.RuntimeVersion, VERSION, 3080112 (64)
+        Constants.RuntimeVersionNumeric, DWORD, 3080288 (32)
+
+
+Global_Version
+^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Symbol, Type, Offset/Size
+    :align: center
+
+        Global_Version.stLibVersion_Tc2_Standard, ST_LibVersion, 3072000 (288)
+        Global_Version.stLibVersion_Tc2_System, ST_LibVersion, 3072288 (288)
+        Global_Version.stLibVersion_Tc3_Module, ST_LibVersion, 3072576 (288)
+
+
+MAIN
+^^^^
+
+.. csv-table::
+    :header: Symbol, Type, Offset/Size
+    :align: center
+
+        MAIN.bValue, BOOL, 3080064 (8)
+        MAIN.iCount, INT, 3080080 (16)
+
+
+TwinCAT_SystemInfoVarList
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Symbol, Type, Offset/Size
+    :align: center
+
+        TwinCAT_SystemInfoVarList.__PlcTask, _Implicit_Task_Info, 3083520 (896)
+        TwinCAT_SystemInfoVarList._AppInfo, PlcAppSystemInfo, 3080384 (2048)
+        TwinCAT_SystemInfoVarList._TaskInfo, PlcTaskSystemInfo, 3082432 (1024)
+        TwinCAT_SystemInfoVarList._TaskOid_PlcTask, OTCID, 3083456 (32)
+        TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask, OTCID, 3080352 (32)
+
+

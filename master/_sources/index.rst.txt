@@ -1,0 +1,30 @@
+pytmc-simple-project
+--------------------
+
+.. toctree::
+    :maxdepth: 2
+    :caption: pytmc-simple-project
+
+    pytmc-simple-project_pragmas
+    pytmc-simple-project_nc
+    pytmc-simple-project_ethercat
+    pytmc-simple-project_boxes
+    pytmc-simple-project_links
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: pytmc_simple_plc
+
+    pytmc-simple-project_pytmc_simple_plc_summary
+    pytmc-simple-project_pytmc_simple_plc_epics
+    pytmc-simple-project_pytmc_simple_plc_source
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

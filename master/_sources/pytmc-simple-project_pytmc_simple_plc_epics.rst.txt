@@ -1,0 +1,30 @@
+
+Data Types
+----------
+
+
+      
+Database Records
+----------------
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - PLC:TEST:iCount_RBV
+      - longin
+      - MAIN.iCount
+      - | io: output
+
+
+    * - PLC:TEST:iCount
+      - longout
+      - MAIN.iCount
+      - | io: output
+
+
+
